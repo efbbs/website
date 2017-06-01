@@ -1,0 +1,93 @@
+
+@charset 'UTF-8';
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+#cssmenu a {
+  line-height: 1.3;
+}
+#cssmenu {
+  width: auto;
+}
+#cssmenu > ul > li > a {
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #0872ae;
+  color: #f6f399;
+  border-bottom: 1px solid #8bc5f6;
+  text-transform: none;
+}
+#cssmenu > ul > li > a > span {
+  background: #0872ae;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  color: #900;
+}
+#cssmenu > ul > li.active > a span {
+  background: #77acf4;
+}
+#cssmenu div.cnt {
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  width:12px;
+  height:8px;
+  background-image: url(glyphs-down.png);
+  
+  background-size: cover;
+  
+ } 
+#cssmenu > ul > li.active .cnt{
+background-image: url(glyphs-up.png);
+	
+}
+/* Sub menu */
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu ul ul li {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+}
+#cssmenu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #a86b02;
+  font-size: 13px;
+}
+#cssmenu ul ul a:hover {
+  color: #0b1375;
+}
+#cssmenu ul ul li.odd {
+  background: #480511;
+}
+#cssmenu ul ul li.even {
+  background: #fff;
+}

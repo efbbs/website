@@ -1,0 +1,26 @@
+	.rowData{
+		text-align:left;
+		
+	}
+	
+	.rowData a{
+		text-decoration:none !important;
+	}
+	
+	.title{
+		display:block;
+		font-size:14px;
+		color:#666666;
+		
+	
+	}
+	
+	.authors{
+		font-size:12px;
+		color:#999999;
+	}
+	
+	.id{
+	font-size: 14px;
+	color:#666666;
+	}
